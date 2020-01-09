@@ -1,0 +1,6 @@
+The virtual classroom is a powerful tool to use as a replacement for traditional Teaching sessions such as workshops and structured discussion.
+It is the learning environment and part of the distance learning platform, which typically incorporates course materials, homework, assessments, 
+and other tools that are external to the classroom experience.
+In this project, Admin can keep all information related to student and teacher, 
+Teacher can upload and download the video and other studies materials and 
+Student and view and download the studies materials.

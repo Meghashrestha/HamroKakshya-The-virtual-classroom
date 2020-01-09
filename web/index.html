@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html >
+<head>
+    
+  <meta charset="UTF-8">
+  <title>Virtual Classroom</title>
+  <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body background="image/back2.jpg">
+<h1><b>*** HAMRO KAKSHYA ***</b></h1>
+<h2><b><center>The virtual classroom</center></b></h2>
+    <br><br><br><br><br>
+  <div class="form" >   
+      <h1>Login</h1>
+          
+          <form action="login.jsp" method="post">
+              <div class="top-row">
+            <div class="field-wrap">
+              <label>
+                USER TYPE <span class="req">*</span>
+              </label>
+             
+            </div>
+        
+            <div class="field-wrap">
+              
+              <select name="user" style="width:250px; height:38px;">
+                    <option value="admin">Admin</option>
+                    <option value="student">Student</option>
+                    <option value="teacher">Faculty</option>
+                </select>
+            </div>
+          </div>
+              
+              <br>
+          <div class="top-row">
+            <div class="field-wrap">
+              <label>
+                USER NAME <span class="req">*</span>
+              </label>
+             
+            </div>
+        
+            <div class="field-wrap">
+           
+              <input type="text" name="usr" required autocomplete="off"/>
+            </div>
+          </div>
+              <br>
+           <div class="top-row">
+            <div class="field-wrap">
+              <label>
+                 PASSWORD <span class="req">*</span>
+              </label>
+             
+            </div>
+        
+            <div class="field-wrap">
+            
+              <input type="PASSWORD" name="pwd" required autocomplete="off"/>
+            </div>
+          </div>
+              <br><br>
+          <button type="submit"  class="button button-block"/>Login</button>
+          
+          </form>
+
+        </div>
+  <!-- tab-content -->
+   
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
